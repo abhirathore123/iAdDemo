@@ -21,6 +21,7 @@
 		C0A0718319477327001C87CA /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C0A0716519477327001C87CA /* UIKit.framework */; };
 		C0A0718B19477327001C87CA /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = C0A0718919477327001C87CA /* InfoPlist.strings */; };
 		C0A0718D19477327001C87CA /* iAdDemoTests.m in Sources */ = {isa = PBXBuildFile; fileRef = C0A0718C19477327001C87CA /* iAdDemoTests.m */; };
+		C0A0719719477391001C87CA /* iAd.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C0A0719619477391001C87CA /* iAd.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -53,6 +54,7 @@
 		C0A0718819477327001C87CA /* iAdDemoTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "iAdDemoTests-Info.plist"; sourceTree = "<group>"; };
 		C0A0718A19477327001C87CA /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		C0A0718C19477327001C87CA /* iAdDemoTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = iAdDemoTests.m; sourceTree = "<group>"; };
+		C0A0719619477391001C87CA /* iAd.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = iAd.framework; path = System/Library/Frameworks/iAd.framework; sourceTree = SDKROOT; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -60,6 +62,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				C0A0719719477391001C87CA /* iAd.framework in Frameworks */,
 				C0A0716419477327001C87CA /* CoreGraphics.framework in Frameworks */,
 				C0A0716619477327001C87CA /* UIKit.framework in Frameworks */,
 				C0A0716219477327001C87CA /* Foundation.framework in Frameworks */,
@@ -101,6 +104,7 @@
 		C0A0716019477327001C87CA /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				C0A0719619477391001C87CA /* iAd.framework */,
 				C0A0716119477327001C87CA /* Foundation.framework */,
 				C0A0716319477327001C87CA /* CoreGraphics.framework */,
 				C0A0716519477327001C87CA /* UIKit.framework */,
